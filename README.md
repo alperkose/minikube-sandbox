@@ -19,6 +19,11 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 minikube start --driver=hyperv 
 ```
+For Linux use [kvm2](https://minikube.sigs.k8s.io/docs/drivers/kvm2/).
+See minikube docs for dependencies.  Use your distribution's specific mechanism to install these.
+```shell
+minikube start --driver=kvm2
+```
 
 Install addons:
 ```shell
