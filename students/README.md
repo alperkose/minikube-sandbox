@@ -20,5 +20,5 @@ kubectl apply -f deploy/namespace.yaml
 kubectl create secret generic db-credentials --from-literal='username=testUser' --from-literal='password=testPassword' -n students
 
 # deploy the application
-kubectl apply -f deploy/config.yaml -f deploy/deployment.yaml -f deploy/service.yaml -n students
+kubectl apply -f deploy/config.yaml -f deploy/deployment.yaml -f deploy/service.yaml -f deploy/ingress.yaml -n students
 ```
