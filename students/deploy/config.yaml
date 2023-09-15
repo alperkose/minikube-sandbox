@@ -6,7 +6,7 @@ data:
   # file-like keys
   application.properties: |
     spring.datasource.driver-class-name=org.postgresql.Driver
-    spring.datasource.url=jdbc:postgresql://postgresdb:5432/test_db
+    spring.datasource.url=jdbc:postgresql://postgresdb.postgres:5432/test_db
     spring.jpa.show-sql=true
     spring.sql.init.mode=always
     management.endpoints.web.exposure.include=*
