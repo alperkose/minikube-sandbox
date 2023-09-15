@@ -1,10 +1,10 @@
-POST http://localhost:8081/students
+POST http://students.minikube/students
 Content-Type: application/json
 
 {
-  "id": 2,
+  "id": 1,
   "name": "Primus"
 }
 
 ###
-GET http://localhost:8081/students/3
+GET http://students.minikube/students/1
